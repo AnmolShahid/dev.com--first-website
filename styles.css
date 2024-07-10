@@ -1,0 +1,62 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 50px 50px 0px 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    min-height: 95vh;
+}
+
+.logo{
+    width: 100px;
+}
+
+.main{
+    flex: 1;
+}
+
+.card{
+    width: 45%;
+    padding: 0 0 50 0;
+}
+
+.card-image{
+    width: 300px;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.creative{
+    color: darkblue;
+}
+
+@media (max-width: 680px){
+
+    .card {
+        width: 100%;
+        display: block;
+        text-align: justify;
+        justify-content: center;
+    }
+    
+    .card-image{
+        width: 100%;
+        display: inline;
+        object-fit: cover;
+    }
+
+    .logo{
+        width: 100px;
+        text-align: center;
+    }
+
+    .heading{
+        text-align: center;
+    }
+}
